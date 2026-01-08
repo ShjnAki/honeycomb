@@ -1,0 +1,152 @@
+/* Ici ce qui est commun à toutes les pages */
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+
+html{ 
+  scroll-behavior: smooth;
+}
+/* ***************** Head ********** */
+body {
+  font-family: "Advent Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: url(media/bg2.png) fixed 50% 50%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  color: antiquewhite;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ************** Header | Body ********* */
+nav {
+  overflow: hidden;
+  background-color: #a5580f;;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 4em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: "Dancing Script", cursive;
+  color: #FF9900;
+  font-weight: bold;
+  float: left;
+}
+#panier {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size:2em;
+  float: right;
+} 
+#premium {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size:2em;
+  float: right;
+}
+#connexion {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size:2em;
+  float: right;
+}
+/* ********* Image Accueil/ Bannière ******** */
+#imageAccueil {
+  padding-top: 60px;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 110px;
+  text-shadow: 1px 3px 2px black;
+}
+#premiertrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #EBA937;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  font-family: "Dancing Script", cursive;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+ h4 {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px  antiquewhite;
+}
+
+/* ---------------- Footer ------------------------ */
+footer {
+  background-color: #a5580f;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#quatriemeTrait {
+  height: 1px;
+  width: 75%;
+  margin: 60px auto;
+  background-color: #EBA937;
+  box-shadow: 1px 3px 2px black;
+}
+#copyrightandicons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: center;
+  color: #FFFAE1;
+}
+#cptext {
+  color: #EBA937;
+  text-shadow: 2px 5px 2px black;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+  color: #EBA937;
+  text-shadow: 6px 3px 2px black;
+}
+#icons a {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}

@@ -1,0 +1,180 @@
+/*----------------Page d'accueil | Index.html----------------- */
+h1,h2,h3 {
+  color: #EBA937;
+}
+
+#visit {
+  color: #EBA937;
+}
+#recommandation {
+  /* background: url(media/bg.png) center/cover; */
+  background-color: #E9A874;
+  padding: 1px 0px 100px 0;
+}
+#textIntro {
+  padding: 0px 20%;
+}
+#recommandation p {
+  margin: 50px -180px 0 0;
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+  padding-top: 15px;
+}
+#deuxiemetrait {
+  height: 1px;
+  width: 25%;
+  margin: 60px auto;
+  background-color: #EBA937;
+}
+#produits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+.imgprod h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imgprod img {
+  border-radius: 10px;
+  /* si je mets 50%, ca finit arrondit. */
+  box-shadow: 13px 15px 5px rgba(7, 5, 5, 0.671);
+}
+.imgprod img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+/* ------------- Nos sources ------------- */
+#troisiemetrait {
+  height: 1px;
+  width: 75%;
+  margin: 60px auto;
+  background-color: #EBA937;
+  box-shadow: 1px 3px 2px black;
+}
+#source {
+  display: flex;
+  flex-wrap: wrap; /* permet de revenir à la ligne si trop d’images */
+  gap: 40px;       /* espace entre les box */
+  justify-content: center;
+  padding: 60px 2%;
+}
+.source {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 14px 20px 28px 7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background: #ffffff41; /* box transparente */
+  transition: transform 0.3s ease;
+}
+.source:hover {
+  transform: scale(1.05);
+}
+.source img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain; /* garde les proportions */
+}
+/* ---------- Formulaire de contact ------------- */
+ #contact {
+  max-width: 400px;         
+  padding: 20px;            
+  margin: 50px auto;        
+  display: grid;
+  background-color: #E9A874;
+  border-radius: 10px;      
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;  
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+  max-width: fit-content;
+}
+button {
+  font-size: 1.5em;
+  background-color: FFFAE1;
+}
+button:hover {
+  background-color: rgb(121, 94, 60);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+/* --------------- Espace connexion | connexion.html-------------------- */
+#log_reg {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  background-color: #E9A874;
+  border-radius: 10px;
+}
+#login, #register {
+  background-color: fffae1;
+  padding: 1px 0px 100px 0;
+  max-width: 50%;
+  border-radius: 10px;
+}
+#login p, #register p {
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+  padding-top: 15px;
+  text-align: center;
+}
+#log, #sign {
+  font-size: 1.5em;
+  background-color: #a5580f;
+}
+#log:hover, #sign:hover {
+  background-color: rgb(121, 94, 60);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;  
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: FFFAE1;
+}
+button:hover {
+  background-color: rgb(121, 94, 60);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+/* --------------- checkout.html -------------------- */
+/* --------------- client.html -------------------- */
